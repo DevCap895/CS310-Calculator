@@ -10,6 +10,7 @@
 package org.eclipse.example.calc.internal;
 
 import org.eclipse.example.calc.BinaryOperation;
+import org.eclipse.example.calc.internal.operations.Modulo;
 import org.eclipse.example.calc.internal.operations.Multiply;
 import org.eclipse.example.calc.internal.operations.Power;
 import org.eclipse.example.calc.Operation;
@@ -47,6 +48,7 @@ public class Calculator {
 		new Divide();
 		new Multiply();
 		new Power();
+		new Modulo();
 	}
 
 	// fixed: textProvider value may be null or empty String

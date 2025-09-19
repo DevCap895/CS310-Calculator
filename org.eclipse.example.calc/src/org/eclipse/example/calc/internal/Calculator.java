@@ -18,6 +18,8 @@ import org.eclipse.example.calc.internal.operations.Minus;
 import org.eclipse.example.calc.internal.operations.Plus;
 import org.eclipse.example.calc.internal.operations.Square;
 
+import org.eclipse.example.calc.internal.operations.Divide;
+
 public class Calculator {
 
 	private TextProvider textProvider;
@@ -40,6 +42,7 @@ public class Calculator {
 		new Minus();
 		new Plus();
 		new Square();
+		new Divide();
 	}
 
 	// fixed: textProvider value may be null or empty String

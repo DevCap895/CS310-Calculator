@@ -10,6 +10,7 @@
 package org.eclipse.example.calc.internal;
 
 import org.eclipse.example.calc.BinaryOperation;
+import org.eclipse.example.calc.internal.operations.Multiply;
 import org.eclipse.example.calc.internal.operations.Power;
 import org.eclipse.example.calc.Operation;
 import org.eclipse.example.calc.Operations;
@@ -44,6 +45,7 @@ public class Calculator {
 		new Plus();
 		new Square();
 		new Divide();
+		new Multiply();
 		new Power();
 	}
 
